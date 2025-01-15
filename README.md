@@ -12,7 +12,7 @@ You have to activate the API on your pellet heater first: see documentation http
 Check if the access to the ETA API works using http://<YOUR-ETA-IP>:8080/user/menu in your browser first.
 
 ## Installation 
-The copy this component (the `eta/` folder of this repo) to `/config/custom_components/` (create the directory `custom_components` if not exists) and add the following to your configuration.yaml in the `sensor:` section:
+Copy or clone this component (the `eta/` folder of this repo) to `/config/custom_components/` (create the directory `custom_components` if not exists) and add the following to your configuration.yaml in the `sensor:` section:
 ```
 sensor:
   - platform: eta_heating
