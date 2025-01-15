@@ -3,9 +3,7 @@
 Uses the ETA REST API to get sensor values.
 This was tested with the ETA Pellets Unit 15 (https://www.eta.co.at/produkte/produktuebersicht/pellets/eta-pu-7-11-und-15-kw/).
 
-Note: this repo has been forked multiple times and is not continued. 
-
-I suggest trying this repository instead: https://github.com/Tidone/homeassistant_eta_integration
+I suggest trying this repository as well: https://github.com/Tidone/homeassistant_eta_integration
 It has a nice integration setup with UI to select sensors, and it also has writable sensors and switches.
 
 ## API Activation
