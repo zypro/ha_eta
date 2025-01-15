@@ -12,7 +12,7 @@
 @state_class is optional
 @factor is optional
 """
-from homeassistant.const import TIME_SECONDS
+from homeassistant.const import UnitOfTime
 
 SENSORS_CUSTOM = [
   {
@@ -23,6 +23,6 @@ SENSORS_CUSTOM = [
   },
   {
     "uri": "/40/10021/0/0/13643",  # Laufzeit Sicherheitspumpenlauf
-    "unit": TIME_SECONDS
+    "unit": UnitOfTime.SECONDS
   },
 ]
